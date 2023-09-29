@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" className="custom-color">
       <Container fluid>
-        <Navbar.Brand href="#">Gallery</Navbar.Brand>
+        <Navbar.Brand href="#" className='brand'>Gallery</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
