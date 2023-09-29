@@ -1,0 +1,22 @@
+/* ImageGallery.css */
+.Card{
+    background: rgba(0, 127, 8, 0.7);
+    height: 90%;
+    margin: 0.5rem;
+    overflow: hidden;
+    .Image{
+        width: 100%;
+    }
+    .Body{
+        /* background: black; */
+        margin: 0.5rem;
+        text-align: center;
+        font-weight: bolder;
+    }
+}
+
+.Card:hover {
+    background-color: #f8f9fa; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
